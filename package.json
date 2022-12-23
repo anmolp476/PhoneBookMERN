@@ -1,11 +1,14 @@
 {
+  "homepage": "http://anmolp476.github.io/PhoneBookMERN",
   "name": "phonebookmern",
   "version": "1.0.0",
   "description": "A MERN stack app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"cd backEnd && npm run dev\" \"cd frontEnd && npm start\""
+    "dev": "concurrently \"cd backEnd && npm run dev\" \"cd frontEnd && npm start\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -16,8 +19,8 @@
   "bugs": {
     "url": "https://github.com/anmolp476/PhoneBookMERN/issues"
   },
-  "homepage": "https://github.com/anmolp476/PhoneBookMERN#readme",
   "devDependencies": {
-    "concurrently": "^7.6.0"
+    "concurrently": "^7.6.0",
+    "gh-pages": "^4.0.0"
   }
 }

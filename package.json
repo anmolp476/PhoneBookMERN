@@ -1,0 +1,23 @@
+{
+  "name": "phonebookmern",
+  "version": "1.0.0",
+  "description": "A MERN stack app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd backEnd && npm run dev\" \"cd frontEnd && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anmolp476/PhoneBookMERN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anmolp476/PhoneBookMERN/issues"
+  },
+  "homepage": "https://github.com/anmolp476/PhoneBookMERN#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
